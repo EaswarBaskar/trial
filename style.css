@@ -741,7 +741,7 @@ a:hover{
     right: 10px;
 }
 .slider_area .slick-prev::before ,.slider_area .slick-next::before{
-    content: '\eac9';
+    content: '\2190'; /* Unicode for left arrow */
     font-family: IcoFont;
     color: var(--blackc);
     display: inline-block;
@@ -786,7 +786,7 @@ a:hover{
     right: 40px;
 }
 .slick-prev::before ,.slick-next::before{
-    content: '\eac9';
+    content: '\2190';
     font-family: IcoFont;
     display: inline-block;
     width: 60px;
@@ -800,7 +800,7 @@ a:hover{
     transition: 1s;
 }
 .slick-next::before{
-    content: '\eaca';
+    content: '\2192';
 }
 .slick-prev:hover::before ,.slick-next:hover::before{
     background-color: var(--brcolor);
